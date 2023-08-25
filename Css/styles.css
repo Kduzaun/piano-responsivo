@@ -53,18 +53,18 @@ html {
 }
 
 /*Logo*/
-.logo{
+.logo {
   position: absolute;
   top: 23px;
-  width: 200px;;
+  width: 200px;
 }
 
 /*@media max-width*/
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   #piano {
     width: 358px;
-  } 
-  
+  }
+
   .teclas {
     width: 318px;
   }
