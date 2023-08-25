@@ -1,0 +1,26 @@
+/* redefini o box model*/
+html {
+  box-sizing: border-box;
+}
+/* dirá aos elementos de destino que usemo o mesmo valor que o elemento pai o "html".*/
+*, 
+::before, /* ::before cria um pseudoelemento que é o primeiro filho do elemento selecionado*/
+::after {
+  /*::after cria um pseudoelemento que é o último filho do elemento selecionado*/
+  box-sizing: inherit;
+}
+
+/*Piano*/
+#piano {
+  width: 992px;
+  height: 290px;
+  background-color: brown;
+  margin: 80px auto;
+}
+
+/*teclas*/
+.teclas {
+  background-color: #040404;
+  width: 949px;
+  height: 180px;
+}
